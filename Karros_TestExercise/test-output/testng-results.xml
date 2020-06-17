@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8670" started-at="2020-06-17T14:01:59Z" finished-at="2020-06-17T14:02:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8670" started-at="2020-06-17T14:01:59Z" finished-at="2020-06-17T14:02:08Z">
+      <class name="Karros_Test.SortName">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Karros_Test.SortName@954b04f]" name="Login" is-config="true" duration-ms="6206" started-at="2020-06-17T14:01:59Z" finished-at="2020-06-17T14:02:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="sortname_descending()[pri:0, instance:Karros_Test.SortName@954b04f]" name="sortname_descending" duration-ms="1081" started-at="2020-06-17T14:02:06Z" finished-at="2020-06-17T14:02:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortname_descending -->
+        <test-method status="PASS" signature="sortname_ascending()[pri:1, instance:Karros_Test.SortName@954b04f]" name="sortname_ascending" duration-ms="1267" started-at="2020-06-17T14:02:07Z" finished-at="2020-06-17T14:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortname_ascending -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Karros_Test.SortName@954b04f]" name="TearDown" is-config="true" duration-ms="101" started-at="2020-06-17T14:02:08Z" finished-at="2020-06-17T14:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Karros_Test.SortName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
