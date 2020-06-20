@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite]">
+  <test thread-count="5" name="test(failed)">
     <classes>
-      <class name="Karros_Test.SortName">
+      <class name="Karros_Test.FilterInactive">
         <methods>
-          <include name="Login"/>
-          <include name="sortname_descending"/>
+          <include name="InvokeBrowser"/>
+          <include name="login"/>
+          <include name="fillter_Inactive"/>
           <include name="TearDown"/>
-          <include name="sortname_ascending"/>
         </methods>
-      </class> <!-- Karros_Test.SortName -->
+      </class> <!-- Karros_Test.FilterInactive -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [suite] -->

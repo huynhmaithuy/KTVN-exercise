@@ -18,7 +18,7 @@ import org.testng.annotations.BeforeTest;
 
 //Question: Verify sorting of First Name column
 
-public class SortFristName {
+public class SortFirstName {
 	WebDriver driver;
 	@BeforeTest
 	public void Login() {

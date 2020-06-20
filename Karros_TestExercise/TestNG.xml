@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite" >
+  <test name="test">
+    <classes>
+      <class name="Karros_Test.API_GetMethod"/>
+      <class name="Karros_Test.FilterInactive"/>
+      <class name="Karros_Test.SortFirstName"/>
+    </classes> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

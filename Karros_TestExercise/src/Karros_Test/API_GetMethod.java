@@ -24,7 +24,6 @@ public class API_GetMethod {
 		  RequestSpecification request = RestAssured.given();
 		  Response resp = request.request(Method.GET, "/1");
 		  int statuscode = resp.getStatusCode();
-		  System.out.println(statuscode);
 		  Assert.assertEquals(statuscode, 200);
 		  
 	}
